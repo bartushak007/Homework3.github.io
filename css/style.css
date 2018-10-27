@@ -231,6 +231,7 @@
 	font-family: ptsansregular;
 	font-size: 14px;
 	padding: 7px 15px;
+	transition: 0.5s;
 }
 
 .article-button-a:hover {
