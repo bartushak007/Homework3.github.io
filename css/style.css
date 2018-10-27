@@ -109,6 +109,7 @@
 	text-transform: uppercase;
 	font-family: ptsansabold;
 	font-size: 15px;
+	transition: 0.5s;
 }
 
 .button-a:hover {
