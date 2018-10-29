@@ -9,11 +9,14 @@
 	height: 590px;
 }
 
-.header {
-	color:#ffffff;
+.container {
 	margin: 0 auto;
-	text-align: center;
 	width: 590px;	
+}
+
+.header {
+	color:#ffffff;	
+	text-align: center;	
 	height: 590px;	
 }
 
@@ -92,24 +95,22 @@
 }
 
 .button {
-	margin: 0 auto;
-	width: 235px;
-	margin-top: 83px;
-	height: 50px;
-	background: #50c3af;
-	border: solid 1px #50c3af;
-	border-radius: 30px;
+	display: inline-block;	
+	margin-top: 83px;	
 }
 
 .button-a {
-	color:#ffffff;
-	margin-top:15px; 
-	display: block;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-family: ptsansabold;
-	font-size: 15px;
-	transition: 0.5s;
+	color: #ffffff;    
+    padding: 18px 50px;
+    border-radius: 30px;
+    display: inline-block;
+    background: #50c3af;
+    border: solid 1px #50c3af;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: ptsansabold;
+    font-size: 15px;
+    transition: 0.5s;
 }
 
 .button-a:hover {
@@ -121,9 +122,8 @@
 	height: 290px;
 }
 
-.advantages-section {
-	width: 590px;
-	margin: 0  auto;
+.advantages-section {	
+	padding-top: 63px;
 }
 
 .profesionals,
@@ -132,8 +132,7 @@
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
-	width: 170px;
-	margin-top: 63px;
+	width: 170px;	
 }
 
 .amateours,
@@ -182,11 +181,6 @@
 	margin: 0 auto;		
 }
 
-.section-articles {
-	margin: 0 auto;
-	width: 590px;
-}
-
 .first-article,
 .second-article {
 	display: inline-block;
@@ -220,10 +214,12 @@
 }
 
 .article-button {
-	margin-top:40px; 
+	display: inline-block;
+	margin-top: 40px;	
 }
 
 .article-button-a {
+	display: inline-block;
 	border: solid 1px #50c3af;
 	border-radius: 30px;
 	background: #50c3af;
@@ -231,23 +227,20 @@
 	text-decoration: none;
 	font-family: ptsansregular;
 	font-size: 14px;
-	padding: 7px 15px;
+	padding: 7px 15px 9px;
 	transition: 0.5s;
 }
 
 .article-button-a:hover {
-	color: #787b80;
+	background: #d2d5da;
+	border: solid 1px #d2d5da;;
+
 }
 
 .supported-template {	
 	background: #eeeeef;
 	margin: 0 auto;
 	height: 328px;
-}
-
-.supported-template-section {
-	margin: 0 auto;
-	width: 590px;
 }
 
 .supported-template-section-p {
@@ -289,16 +282,15 @@
 	background: #d2d5da;
 	border: solid #d2d5da 1px;
 }
+.button-supported-template:hover{
+	background: #50c3af;
+	border: solid 1px #50c3af;
+}
 
 .great-modul {
 	background: #f5f5f5;
 	margin: 0 auto;
 	height: 442px;
-}
-
-.great-modul-section {
-	margin: 0 auto;
-	width: 590px;
 }
 
 .great-modul-article,
@@ -345,11 +337,6 @@
 	background: #eeeeef;
 }
 
-.send-section {
-	width: 590px;
-	margin: 0 auto;
-}
-
 .send-article-first,
 .send-article-second {
 	display: inline-block;
@@ -391,11 +378,6 @@
 	background: #f5f5f5;
 }
 
-.for-you-section {
-	margin: 0 auto;
-	width: 590px;
-}
-
 .image,
 .for-you-article {
 	display: inline-block;
@@ -428,8 +410,6 @@
 }
 
 .last-section {
-	width: 590px;
-	margin: 0 auto;
 	text-align: center;
 }
 
@@ -470,9 +450,9 @@
 	color: #ffffff;
 }
 
-.last-section-a-first,
-.last-section-a-second,
-.last-section-a-third {
+.last-section-li-first,
+.last-section-li-second,
+.last-section-li-third {
 	margin-right: 52px;
 }
 
@@ -498,11 +478,6 @@
 	background: #f5f5f5;
 }
 
-.footer {
-	margin: 0 auto;
-	width: 590px;
-}
-
 .copyright,
 .social {
 	display: inline-block;
@@ -515,7 +490,7 @@
 }
 
 .copyright-p {
-	padding-top: 6px;
+	padding-top: 22px;
 	font-family: ptsansregular;
 	font-size: 13px;
 	color: #aaacaf;
